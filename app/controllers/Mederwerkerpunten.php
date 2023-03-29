@@ -61,8 +61,7 @@ foreach ($Aantalpunten as $value)
 ];
       $this->view("mederwerkerpunten/update", $data);
     }
-  }
-
+  
 
   
 
