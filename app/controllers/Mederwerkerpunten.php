@@ -57,7 +57,7 @@ foreach ($Aantalpunten as $value)
       $row = $this->mederwerkerpuntenModel->getAantalpuntenById();
  $data = [
   'title' => '<h1>Update Mederwerkerpunt</h1>',
-  'row' => $row // Assumes $row is an object with an "Aantalpunten" property
+  'row' => $row 
 ];
       $this->view("mederwerkerpunten/update", $data);
     }
